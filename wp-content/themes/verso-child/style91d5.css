@@ -1,0 +1,268 @@
+/*
+Theme Name:     Verso Child Theme
+Description:    Child theme for the Verso WordPress Theme
+Author:         Oxygenna
+Author URI:     http://themeforest.net/user/oxygenna
+Template:       verso
+Version:        1.1.110
+*/
+
+/*  COLORES
+
+    acento: #FE4B15
+
+*/
+
+/* GENERAL */
+
+div#content{
+  background: url("images/malla.png") no-repeat bottom center;
+  background-size: 100% auto;
+}
+
+.pin-derecha{
+  background: url("images/pin-derecha.png") no-repeat right center;
+  background-size: 10% auto;
+}
+.pin-izquierda{
+  background: url("images/pin-izquierda.png") no-repeat left center;
+  background-size: 10% auto;
+}
+
+/* FOOTER */
+.verso-go-top{
+  background-color: rgba(254,75,21,.9);
+}
+
+/* BARRA DE COOKIES */
+div#cookieChoiceInfo{
+  background-color: #9c9fa4!important;
+  color: #ffffff;
+  padding: 1.1rem!important;
+  font-size: 14px;
+}
+div#cookieChoiceInfo div{
+  padding-right: 0px!important;
+}
+div#cookieChoiceInfo span{
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+div#cookieChoiceInfo a{
+    color: #ffffff;
+    background-color: #434040;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+div#cookieChoiceInfo a#cookieChoiceDismissIcon{
+  display: none!important;
+}
+.verso-footer .section + .section{
+  color: #ffffff!important;
+  font-family: "Open Sans";
+  font-size: 14px;
+  
+}
+.verso-footer .section + .section a:hover{
+  color: #FE4B15!important;
+}
+/* MAILCHIMP */
+
+div.mc4wp-form input[type=email]{
+  max-width: 130px;
+}
+input#boton-xift{
+  height: 31px!important;
+  margin: 0 0 0 10px!important;
+  border: none!important;
+  background-color: #FE4B15!important;
+  color: #ffffff!important;
+  text-transform: uppercase!important;
+  border-style: none!important;
+  border-width: 0px!important;
+}
+#mc_embed_signup form{
+  padding: 0!important;
+}
+#mc_embed_signup .mc-field-group{
+  width: 100%!important;
+}
+#mc_embed_signup .mc-field-group input[type=email]{
+  float: none;
+  display: inline-block;
+  width: auto;
+  max-width: 150px;
+}
+#mc_embed_signup .mc-field-group input[type=submit]{
+  float: none;
+  display: inline-block;
+  margin: 0 0 0 10px!important;
+  border: none!important;
+  background-color: #FE4B15!important;
+  color: #ffffff!important;
+  text-transform: uppercase!important;
+  border-style: none!important;
+  border-width: 0px!important;
+  border-radius: 0;
+  max-width: 95px;
+  height: 43px;
+}
+#mc_embed_signup #mce-success-response{
+  padding: 0!important;
+  margin: 0!important;
+  color: #ffffff!important;
+  text-align: left;
+}
+#mc_embed_signup div#mce-responses{
+  padding: 0!important;
+  margin: 0!important;
+}
+#mc_embed_signup #mce-error-response{
+  padding: 0!important;
+  margin: 0!important;
+}
+a.button{
+  margin: 0 0 0 10px!important;
+  border: none!important;
+  background-color: #FE4B15!important;
+  color: #ffffff!important;
+  text-transform: uppercase!important;
+  border-style: none!important;
+  border-width: 0px!important;  
+  padding: 20px 40px;
+  border-radius: 0;
+  font-size: 15px;
+  line-height: 15px;
+}
+/* MENU SUPERIOR */
+
+  .verso-nav-list > li.active > a, .verso-nav-list > li.active > a:hover {
+      color: #FE4B15;
+  }
+
+/* IMÁGENES */
+
+  div.imagen-servicio img{
+    height: 160px!important;
+    width: auto!important;
+  }
+
+
+  .verso-header-transparent .verso-nav:not(.verso-nav-scrolled) .verso-nav-list > li > a:before {
+      background-color: #FE4B15;
+  }
+
+  .margen-lateral-movil{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .oculto-movil{
+    display: none;
+  }
+  .oculto-desktop{
+    display: block;
+  }
+
+  /* PORTFOLIO */
+  .pie-social{
+    background-color: #FE4B15;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .pie-social a{
+    background-color: transparent!important;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  /* MEDIA QUERIES */
+
+  @media screen and (min-width:1200px) {
+
+      .verso-nav-list > li > a:before {
+          background-color: #FE4B15;
+      }
+    
+  }
+
+/* MEDIA QUERY */
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  span.cc-message{
+    text-align: left;
+  }
+  .media-object{
+    margin-top:0;
+  }
+  div#galeria-responsive{
+    margin-top: 0px;
+  }
+  .carousel-caption{
+    top: 50px;
+    bottom: 150px;
+    right: 15%;
+    left: 15%;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+  div#cookieChoiceInfo a{
+    color: #ffffff;
+    margin-left: 20px;
+    background-color: #434040;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  /* barra de idioma */
+  li.lang-item a{
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+  li.lang-item a::after{
+    content: "|";
+    padding-left: 5px;
+  }
+  ul.verso-nav-list li:last-child a::after{
+    content: "";
+    padding-left: 0px;
+  }
+  .margen-lateral-movil{
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .oculto-movil{
+    display: block;
+  }
+  .oculto-desktop{
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* FIN MEDIA QUERY */
+
+
